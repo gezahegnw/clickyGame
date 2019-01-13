@@ -30,11 +30,26 @@ a {
     color: #fff;
     font-weight: 900;
 }
-/*
+
 .message {
     padding-right: 300px !important;
 }
 .score{
     padding-right:0 100px 0 0 !important;
 }
-*/
+
+.nav-width {
+    min-width: 100vw;
+  }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #444;
+      }
+      .navbar {
+          background-color: #444;
+      }
+      .navbar li {
+        display: block;
+        text-align: center;
+    }
+    }

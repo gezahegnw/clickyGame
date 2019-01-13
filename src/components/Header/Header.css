@@ -31,3 +31,19 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 };
+.nav-width {
+  min-width: 100vw;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .header {
+    background-color: rgba(12, 231, 195, 0.938);
+    color: #333;
+    padding-bottom: 140px;
+    text-align: center;
+    width: 100%;
+    margin-top: 150px;
+  }
+}
