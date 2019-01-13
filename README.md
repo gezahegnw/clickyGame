@@ -9,3 +9,9 @@ The application should render different images (of your choice) to the screen. E
  Once the user's score is reset after an incorrect guess, the game should restart.
 
  When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
+
+# Deployed heroku link
+* https://murmuring-woodland-56016.herokuapp.com/
+
+# GitHub link
+* https://github.com/gezahegnw/clickyGame
