@@ -77,7 +77,7 @@ class App extends Component {
   // Handler for incorrect guesses/clicks
   handleIncorrectClick = () => {
     this.setState({
-      message: "INCORRECT. PLAY AGAIN?",
+      message: "INCORRECT. PLEASE TRY AGAIN!",
       isGuessCorrect: false
     });
     // this.toggleIncorrectAnimation();
